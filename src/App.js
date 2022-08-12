@@ -1,11 +1,11 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom'
 import './App.css';
-import Navbar from './components/header/Navbar';
-import Education from './components/header/Education';
-import Skills from './components/header/Skills';
-import Contact from './components/header/Contact';
-import {Route, Routes} from 'react-router-dom'
-import Home from './components/header/Home';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Education from './components/Education';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
 
 function App () {
   return (
