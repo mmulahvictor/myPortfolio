@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import './Style.css'
 
-function Home() {
+function Home () {
   return (
-    <div>Home</div>
-  )
+    <div>
+      <p className='about-me'>
+        Hi There! <br />
+        I'M VICTOR MMULAH <br />
+        Software Developer
+      </p>
+    </div>
+  );
 }
 
-export default Home
+export default Home;
