@@ -32,3 +32,44 @@
 
 /* Home */
 
+.home{
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: black;
+    height: 4250px;
+    padding: 16px 0 16px 0;
+    display: flex;
+}
+
+.victor{
+    height: 300px;
+    width: 300px;
+    margin: 0 28px 0 28px;
+}
+
+.home-msg{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.home-msg h1{
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 67px;
+    text-align: center;
+}
+
+.home-msg h2{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 33px;
+    text-align: center;
+}
+
+.home hr{
+    height: 1px;
+    width: 100%;
+    margin: 24px 0 24px 0;
+    border-top: 2px solid #212529;
+}
