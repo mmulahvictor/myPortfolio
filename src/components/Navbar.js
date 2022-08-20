@@ -5,6 +5,7 @@ import './Style.css'
 function Navbar () {
     return (
         <nav className='nav'>
+            <h1 className='logo'>Victor Mmulah</h1>
             <NavLink to="/" className='link'>Home</NavLink>
             <NavLink to="/Education" className='link'>Education</NavLink>
             <NavLink to="/Skills" className='link'>Skills</NavLink>
