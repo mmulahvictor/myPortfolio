@@ -39,13 +39,14 @@
     height: 4250px;
     padding: 16px 0 16px 0;
     display: flex;
-    flex-direction: column-reverse;
+    justify-content: space-between;
 }
 
 .victor{
     height: 300px;
     width: 300px;
     margin: 0 28px 0 28px;
+    border-radius: 50%;
 }
 
 .home-msg{
