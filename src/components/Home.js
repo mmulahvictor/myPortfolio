@@ -5,7 +5,7 @@ function Home () {
   return (
     <div className='home'>
       <div>
-        <img className='victor' src="../assets/IMG-20220630-WA0019.jpg" alt="Victor Mmulah" />
+        <img className='victor' src="https://pbs.twimg.com/profile_images/1427905585945759755/WOq64RxB_400x400.jpg" alt="Victor Mmulah" />
       </div>
       <div className='home-msg'>
         <h1>Victor Mmulah</h1>
