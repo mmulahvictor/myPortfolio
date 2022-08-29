@@ -11,7 +11,7 @@ function Home () {
         <h1>Victor Mmulah</h1>
         <h2>Software Engineer</h2>
         <p>
-          I am a software engineer with a passion for building scalable and maintainable software. I am currently working as a software engineer at <a href="https://www.zebra.com/us/en.html">Zebra Technologies</a> where I work on the <a href="https://www.zebra.com/us/en/products/software/zebra-workspace.html">Zebra Workspace</a> product.
+          I am a software engineer with a passion for building scalable and maintainable software. I am currently working as a software engineer at <a href="https://innodems.org/">INNODEMS</a> where I work on the <a href="https://innodems.org/">INNODEMS</a> product.
         </p>
         <hr />
         <p>
