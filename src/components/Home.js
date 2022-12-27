@@ -4,14 +4,14 @@ import './Style.css'
 function Home () {
   return (
     <div className='home'>
-      <div>
-        <img className='victor' src="https://pbs.twimg.com/profile_images/1427905585945759755/WOq64RxB_400x400.jpg" alt="Victor Mmulah" />
+      <div className='header'>
+        <h1>Victor Mmulah</h1>
+        <h2>Software Engineer/IT Officer</h2>
       </div>
       <div className='home-msg'>
-        <h1>Victor Mmulah</h1>
-        <h2>Software Engineer</h2>
+        
         <p>
-          I am a software engineer with a passion for building scalable and maintainable software. I am currently working as a software engineer at <a href="https://innodems.org/">INNODEMS</a> where I work on the <a href="https://innodems.org/">INNODEMS</a> product.
+          I am a software engineer with a passion for building scalable and maintainable software. I am currently working as an IT Officer at <a href="https://edutab.africa">Edutab Africa</a>
         </p>
         <hr />
         <p>
