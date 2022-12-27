@@ -4,6 +4,12 @@ import './contact.css'
 function Contact() {
   return (
     <div>
+      <h3>Got a question?</h3>
+      <h1>Contact Me</h1>
+      <p>
+        I am here to help and answer any question you might have. I look forward to hearing from you.
+      </p>
+      <h1>&#128578;</h1>
       <form action="">
         <label htmlFor="fname">First Name</label>
         <input type="text" name="" id="fname" placeholder='Your name...' />
