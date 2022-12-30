@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom'
-import Home from './components/Home';
+import Home from './components/home/Home';
 import Navbar from './components/Navbar';
-import Skills from './components/Skills';
+import Skills from './components/skills/Skills';
 import Contact from './components/contact/Contact';
 
 function App () {
