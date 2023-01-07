@@ -1,38 +1,28 @@
 import React from 'react';
-import './skills.css'
+import Footer from '../footer/Footer';
+import './skills.css';
 
 function Skills () {
   return (
     <div>
-      <p>
-        Through out the years I have gained a lot of skills via bootcamps, projects and work environment.
-      </p>
-      <p>
-        These are the skills that I am profecient in:
-      </p>
-      <div className='languages'>
-        <h2>Languages</h2>
-        <ul>
-          <li>JavaScript</li>
-          <li>Ruby</li>
-        </ul>
+      <h1>Projects</h1>
+      <div>
+        <h2>Project 1</h2>
+        <img src="/project1.png" alt="Screenshot of Project 1" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          elementum dui at dui placerat, at ornare diam finibus.
+        </p>
       </div>
       <div>
-        <h2>Fameworks</h2>
-        <ul>
-          <li>Rails</li>
-          <li>React</li>
-        </ul>
+        <h2>Project 2</h2>
+        <img src="/project2.png" alt="Screenshot of Project 2" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          elementum dui at dui placerat, at ornare diam finibus.
+        </p>
       </div>
-      <div>
-        <h2>Design</h2>
-        <ul>
-          <li>Figma</li>
-        </ul>
-      </div>
-      <div>
-        <h2>Projects</h2>
-      </div>
+      <Footer />
     </div>
   );
 }

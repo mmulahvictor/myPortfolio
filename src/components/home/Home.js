@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../footer/Footer';
 import './home.css';
 
 function Home () {
@@ -17,9 +18,10 @@ function Home () {
           <p>
             I am a software engineer based in Kakamega, Kenya and I am very passionate and dedicated to my work. With 3 years experience I am a professional full stack developer. I have acquired the skills necessary to build great and premium websites and softwares.
           </p>
-          
+
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
