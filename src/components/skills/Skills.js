@@ -7,19 +7,17 @@ function Skills () {
     <div>
       <h1>Projects</h1>
       <div>
-        <h2>Project 1</h2>
-        <img src="/project1.png" alt="Screenshot of Project 1" />
+        <h2>Sendit Courrier Service</h2>
+        <img src="../../assets/sendit.png" alt="Sendit" />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-          elementum dui at dui placerat, at ornare diam finibus.
+          We are a transportation service in Kenya that create a robust business model. Delivering to all over the world through our effective supply chain, use of modern technologies like geomapping , tracking , and autonomous technologies
         </p>
       </div>
       <div>
-        <h2>Project 2</h2>
-        <img src="/project2.png" alt="Screenshot of Project 2" />
+        <h2>Safety Boda</h2>
+        <img src="../../assets/bodaa.png" alt="Safety Bodaa" />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-          elementum dui at dui placerat, at ornare diam finibus.
+          A web application to increase passenger safety when utilizing bodaboda services. It collects all data related to the service to secure us.
         </p>
       </div>
       <Footer />
