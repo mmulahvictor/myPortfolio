@@ -1,17 +1,29 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import './navbar.css'
+import { Link } from 'react-router-dom';
+import './navbar.css';
 
-function Navbar () {
+const Navbar = () => {
     return (
-        <nav className='nav'>
-            <NavLink to="/" className='logo'>Victor<span className='my_name'>Mmulah</span></NavLink>
-            <NavLink to="/" className='link'>Home</NavLink>
-            <NavLink to="/skills" className='link'>Skills</NavLink>
-            <NavLink to="/blogs" className='link'>Blogs</NavLink>
-            <NavLink to="/contact" className='link'>Contact</NavLink>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <Link className="navbar-brand" to="/">My Portfolio</Link>
+            {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button> */}
+            <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/about">About</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/projects">Projects</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/contact">Contact</Link>
+                    </li>
+                </ul>
+            </div>
         </nav>
     );
-}
+};
 
 export default Navbar;

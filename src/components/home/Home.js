@@ -5,11 +5,6 @@ import './home.css';
 function Home () {
 
   const [ showScroll, setShowScroll ] = useState( false );
-  const [ isOpen, setIsOpen ] = useState( false );
-
-  const toggleNav = () => {
-    setIsOpen( !isOpen );
-  };
 
   useEffect( () => {
     window.addEventListener( "scroll", () => {
@@ -30,17 +25,6 @@ function Home () {
   return (
     <div className="homepage">
       <header className="header">
-        <button className="toggle-nav" onClick={ toggleNav }>
-          &#9776;
-        </button>
-        { isOpen && (
-          <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#contact">Contact</a>
-          </nav>
-        ) }
         <h1 className="title">Victor Mmulah</h1>
         <h2 className="subtitle">Full Stack Software Developer</h2>
       </header>
