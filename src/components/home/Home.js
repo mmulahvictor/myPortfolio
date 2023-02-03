@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-// import Footer from '../footer/Footer';
 import './home.css';
 
 function Home () {
@@ -80,7 +79,7 @@ function Home () {
       </section>
       { showScroll && (
         <button className="scroll-top" onClick={ scrollTop }>
-          Scroll to Top
+          Back to Top
         </button>
       ) }
     </div>
