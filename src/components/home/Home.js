@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Slider from '../Slider';
 import './home.css';
 
 function Home () {
@@ -23,6 +24,7 @@ function Home () {
 
   return (
     <div className="homepage">
+      {/* <Slider /> */}
       <header className="header">
         <h1 className="title">Victor Mmulah</h1>
         <h2 className="subtitle">Full Stack Software Developer</h2>
